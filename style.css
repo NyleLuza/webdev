@@ -52,4 +52,27 @@ ul li {
   text-align: center;
   margin-top: 20px;
 }
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  border: 2px solid blue;
+}
+
+.leftcontent {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1000px;
+  border: 2px solid blue;
+}
+.leftcontent > div {
+  flex: 1;
+  border: 2px solid blue;
+}
+
+.rightcontent {
+  flex-basis: 300px;
+  border: 2px solid blue;
+}
 /* right side */
