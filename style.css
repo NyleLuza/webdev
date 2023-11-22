@@ -6,12 +6,21 @@ body {
   border: 2px solid red;
   flex-direction: row;
 }
+/* left side */
 .lefthandside {
   display: flex;
   flex-grow: 1;
   flex-basis: 100px;
   background-color: blueviolet;
 }
+ul {
+  list-style-type: none;
+}
+ul li {
+  margin-bottom: 40px;
+}
+/* left side */
+/* right side */
 .righthandside {
   display: flex;
   flex-grow: 10;
