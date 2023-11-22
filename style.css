@@ -20,9 +20,36 @@ ul li {
   margin-bottom: 40px;
 }
 /* left side */
+
 /* right side */
 .righthandside {
   display: flex;
+  flex-direction: column;
   flex-grow: 10;
   flex-basis: 200px;
 }
+
+.headerBox {
+  display: flex;
+  flex-basis: 60px;
+  flex-direction: row;
+  border: 2px solid black;
+}
+
+.leftheaderbox {
+  flex: 1;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.rightheaderbox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex: 1;
+}
+.rightheaderbox > div {
+  text-align: center;
+  margin-top: 20px;
+}
+/* right side */
